@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/sheetPicBerita"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sample_picture" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp">
+
+                <TextView
+                    android:id="@+id/sheetTittleBerita"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="FDA adds warning about rare heart inflammation to Pfizer, Moderna COVID shots - Reuters"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="#1a1a1a" />
+
+                <TextView
+                    android:id="@+id/sheetTglPublish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:text="Dipublikasikan pada 2021-06-09T12:04:40Z, oleh Matt Novak"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="#666666"
+                    android:textSize="6pt" />
+
+                <TextView
+                    android:id="@+id/sheetDetailBerita"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:text="June 25 (Reuters) - The U.S. drug regulator on Friday added a warning to the literature that accompanies Pfizer Inc (PFE.N)/BioNTech (22UAy.DE) and Moderna (MRNA.O) COVID vaccine shots to indicate th… [+1383 chars]"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="#191818"
+                    android:textSize="7pt" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
